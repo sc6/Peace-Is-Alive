@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="base_out_atlas sat" tilewidth="32" tileheight="32" tilecount="1024">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/base_out_atlas sat.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="1025" name="build_atlas sat" tilewidth="32" tileheight="32" tilecount="1024">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/build_atlas sat.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="2049" name="city_insidesat" tilewidth="32" tileheight="32" tilecount="384">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/city_insidesat.png" width="768" height="512"/>
+ </tileset>
+ <tileset firstgid="2433" name="house_insidesat" tilewidth="32" tileheight="32" tilecount="224">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/house_insidesat.png" width="512" height="448"/>
+ </tileset>
+ <tileset firstgid="2657" name="obj_misk_atlas sat" tilewidth="32" tileheight="32" tilecount="1024">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/obj_misk_atlas sat.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="3681" name="terrain_atlas sat" tilewidth="32" tileheight="32" tilecount="1024">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/terrain_atlas sat.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="4705" name="png-test" tilewidth="32" tileheight="32" tilecount="64">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/png-test.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="4769" name="floor" tilewidth="32" tileheight="32" tilecount="224">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/floor.png" width="512" height="448"/>
+ </tileset>
+ <tileset firstgid="4993" name="door" tilewidth="32" tileheight="32" tilecount="64">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/door.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="5057" name="desk-and-book" tilewidth="32" tileheight="32" tilecount="64">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/desk-and-book.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="5121" name="collision" tilewidth="32" tileheight="32" tilecount="1">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/collision.png" width="32" height="32"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="31.875" height="31.875"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="walls n floor" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz6sRgDAURcEIVDQlUAIKMHz6rwkYfEzIEGB35qpn3gkB4P3WGEKTsS0+XXCZjz/ajC0VdXQZq6ljypiOe+nQUYIOHSV8pWM4/ugTO6XuYyUdAAAAAADAv+xPdjU2
+  </data>
+ </layer>
+ <layer name="wall stuff and rug" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0cEKAVEUBuAbFsOdorHDQ0zGS7CTJ2BhL3tbFGJliafAU3gUHsGvQ93CSKk5k/+rv1O3s/hP1xgiItKobSV9z5h5IG/L+1wE8n5zKRhzsjI1aaJfCxlYych7vfd4L2HnbGVq0kW/HrKykk9C7BR9mWk2xs0TZPrm39Jig/5bZKfsjsj/bn+P/gfkqOyO0Lkjg27ZmOSUdXd1nDsq6FmNSU3xHUPnjjp6RjFpKL7jH6zzSTf4jVk56QZERERERERERERERETPrqwFGOg=
+  </data>
+ </layer>
+ <layer name="furniture " width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0j0Kg0AQBtBpUtgEoodIH3IRwRt4DEuvYDyv9QbBZUH84T2Y4oMd+AY2AgDgGl7PNHdNRLsyfXNMv1xjneacOz5/t5/B+5HmqYqYV+ZXHdMv11Bvv7mCb+EfKd3bS1fYp3QPAAAAAACAe1kAX98M7g==
+  </data>
+ </layer>
+ <layer name="on top of furniture" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz6ENgDAQhtGz1Tc8qzACE4CDRRCtQ2AIadI0ec/dqf+LAAD+WMvoBX1sk3fsGXHkcy8T9txt89karnz/AQAAAAAAAPiuAj5AB/M=
+  </data>
+ </layer>
+ <layer name="clutter" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzyESgCAUBFAimYt5DO3OUOycG4IzFgMJwXmv/A0b9ocAwGyO2NfbOnuz23/yB+OV9OR857PdK733V5EX3w8AAAAAAADwlQo6KAPx
+  </data>
+ </layer>
+ <layer name="collision" width="50" height="50" opacity="0.39">
+  <data encoding="base64" compression="zlib">
+   eJzt1FEKgCAQBcC6Q/eno0YfhUhhaeEKM7BfsvAeitMEAP+Zl3PWp9M7c+rIX7m7fhqmUin/Vc7sTsLIs5TeUfL+QnnbI92J1KWmx91uTy1Z9Phew58bpkdrjig9duk/ms+T8xGMlBUAAAAAACjbAAbsHV0=
+  </data>
+ </layer>
+</map>

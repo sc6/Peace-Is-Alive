@@ -30,12 +30,26 @@
  <tileset firstgid="5217" name="city_insidesat" tilewidth="32" tileheight="32" tilecount="384">
   <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/city_insidesat.png" width="768" height="512"/>
  </tileset>
+ <tileset firstgid="5601" name="collision" tilewidth="32" tileheight="32" tilecount="1">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/collision.png" width="32" height="32"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="31.875" height="31.875"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="5602" name="blind-light" tilewidth="32" tileheight="32" tilecount="64">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/blind-light.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="5666" name="shadows" tilewidth="32" tileheight="32" tilecount="64">
+  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/shadows.png" width="256" height="256"/>
+ </tileset>
  <layer name="wall" width="100" height="100">
   <data encoding="base64" compression="zlib">
    eJzt17ENgkAYhuGrbjodwQ20tnIHC8ZxOLW4xBiMJ8LxA8+XPCUE7g0FXUqpAwAAAICFGLq5n3utynY5pX2Fa9anRY9DrqNHmx7HxzmfKnzq0be5322Jym6VSo/Xb6bv7PVo2+Pb2euhxxroEYsesegRS9kl1znr0aTHr9Nj+i7Pf4mh1+oxfo9/psf4PSLfb2v0iEWPWPSIRY9Yptjc7wQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO/u61RGoA==
   </data>
  </layer>
- <layer name="Tile Layer 7" width="100" height="100">
+ <layer name="rugs and painting" width="100" height="100">
   <data encoding="base64" compression="zlib">
    eJzt0cENQEAQBdDpgRKUohJUgQsloGB7INmD+wrvJT9z/ZkfAQAAAADAVy1VxFqVbgHwrLluV0f0WYa6aK3fuvcY0/+nLLM9irDHu7TX3dL/9yyHPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCzTp+0DQY=
   </data>
@@ -63,6 +77,11 @@
  <layer name="phone" width="100" height="100">
   <data encoding="base64" compression="zlib">
    eJztzkENAAAIBKBrYFb7f4zhdJCABAAAAAAAAADgjq7tAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN8NSdMAgQ==
+  </data>
+ </layer>
+ <layer name="collisions" width="100" height="100" opacity="0.43">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJwCAQBECbsP/a0knwIYSQRAVzgsyA+PEhu3iYEgAAAAAAuzny6htQ1S7K3lr8ayRjfcT4yvn6LvQR4ynn+wx7O8d8PX3oIk7PvNJHnFbm+ljHHxcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANjJCbaiJ2c=
   </data>
  </layer>
 </map>
