@@ -1,0 +1,802 @@
+fileFormatVersion: 2
+guid: 8632cac4d1e1f394f884bfba05caa3d5
+timeCreated: 1450745509
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mainchar_walkcycle_0
+    21300002: mainchar_walkcycle_1
+    21300004: mainchar_walkcycle_2
+    21300006: mainchar_walkcycle_3
+    21300008: mainchar_walkcycle_4
+    21300010: mainchar_walkcycle_5
+    21300012: mainchar_walkcycle_6
+    21300014: mainchar_walkcycle_7
+    21300016: mainchar_walkcycle_8
+    21300018: mainchar_walkcycle_9
+    21300020: mainchar_walkcycle_10
+    21300022: mainchar_walkcycle_11
+    21300024: mainchar_walkcycle_12
+    21300026: mainchar_walkcycle_13
+    21300028: mainchar_walkcycle_14
+    21300030: mainchar_walkcycle_15
+    21300032: mainchar_walkcycle_16
+    21300034: mainchar_walkcycle_17
+    21300036: mainchar_walkcycle_18
+    21300038: mainchar_walkcycle_19
+    21300040: mainchar_walkcycle_20
+    21300042: mainchar_walkcycle_21
+    21300044: mainchar_walkcycle_22
+    21300046: mainchar_walkcycle_23
+    21300048: mainchar_walkcycle_24
+    21300050: mainchar_walkcycle_25
+    21300052: mainchar_walkcycle_26
+    21300054: mainchar_walkcycle_27
+    21300056: mainchar_walkcycle_28
+    21300058: mainchar_walkcycle_29
+    21300060: mainchar_walkcycle_30
+    21300062: mainchar_walkcycle_31
+    21300064: mainchar_walkcycle_32
+    21300066: mainchar_walkcycle_33
+    21300068: mainchar_walkcycle_34
+    21300070: mainchar_walkcycle_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mainchar_walkcycle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -9}
+        - {x: 15, y: -18}
+        - {x: 15, y: -62}
+        - {x: 18, y: -63}
+        - {x: 47, y: -63}
+        - {x: 49, y: -59}
+        - {x: 49, y: -29}
+        - {x: 42, y: -9}
+    - name: mainchar_walkcycle_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -9}
+        - {x: 21, y: -9}
+        - {x: 15, y: -25}
+        - {x: 15, y: -59}
+        - {x: 19, y: -63}
+        - {x: 45, y: -63}
+        - {x: 48, y: -61}
+        - {x: 49, y: -56}
+        - {x: 49, y: -28}
+    - name: mainchar_walkcycle_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -9}
+        - {x: 15, y: -64}
+        - {x: 44, y: -64}
+        - {x: 49, y: -63}
+        - {x: 49, y: -30}
+        - {x: 42, y: -9}
+    - name: mainchar_walkcycle_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -9}
+        - {x: 17, y: -20}
+        - {x: 15, y: -26}
+        - {x: 15, y: -60}
+        - {x: 20, y: -64}
+        - {x: 47, y: -64}
+        - {x: 48, y: -63}
+        - {x: 48, y: -20}
+        - {x: 41, y: -9}
+    - name: mainchar_walkcycle_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -9}
+        - {x: 15, y: -19}
+        - {x: 15, y: -63}
+        - {x: 18, y: -64}
+        - {x: 48, y: -64}
+        - {x: 49, y: -60}
+        - {x: 49, y: -23}
+        - {x: 42, y: -9}
+    - name: mainchar_walkcycle_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -9}
+        - {x: 15, y: -25}
+        - {x: 15, y: -61}
+        - {x: 17, y: -63}
+        - {x: 49, y: -63}
+        - {x: 49, y: -28}
+        - {x: 41, y: -9}
+    - name: mainchar_walkcycle_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -9}
+        - {x: 15, y: -11}
+        - {x: 15, y: -64}
+        - {x: 49, y: -64}
+        - {x: 49, y: -15}
+        - {x: 44, y: -9}
+    - name: mainchar_walkcycle_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -10}
+        - {x: 23, y: -10}
+        - {x: 16, y: -19}
+        - {x: 16, y: -64}
+        - {x: 41, y: -64}
+        - {x: 47, y: -62}
+        - {x: 49, y: -59}
+        - {x: 49, y: -30}
+    - name: mainchar_walkcycle_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -9}
+        - {x: 15, y: -24}
+        - {x: 15, y: -58}
+        - {x: 20, y: -64}
+        - {x: 49, y: -64}
+        - {x: 49, y: -20}
+        - {x: 40, y: -9}
+    - name: mainchar_walkcycle_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -12}
+        - {x: 20, y: -14}
+        - {x: 20, y: -16}
+        - {x: 15, y: -21}
+        - {x: 15, y: -53}
+        - {x: 21, y: -64}
+        - {x: 42, y: -64}
+        - {x: 44, y: -61}
+        - {x: 47, y: -46}
+        - {x: 47, y: -18}
+        - {x: 41, y: -12}
+    - name: mainchar_walkcycle_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -13}
+        - {x: 18, y: -14}
+        - {x: 15, y: -24}
+        - {x: 15, y: -64}
+        - {x: 41, y: -64}
+        - {x: 47, y: -62}
+        - {x: 47, y: -19}
+        - {x: 43, y: -13}
+    - name: mainchar_walkcycle_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: -17}
+        - {x: 41, y: -12}
+        - {x: 18, y: -12}
+        - {x: 15, y: -21}
+        - {x: 15, y: -46}
+        - {x: 17, y: -63}
+        - {x: 40, y: -63}
+        - {x: 45, y: -61}
+        - {x: 47, y: -40}
+        - {x: 47, y: -19}
+    - name: mainchar_walkcycle_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -12}
+        - {x: 18, y: -13}
+        - {x: 15, y: -20}
+        - {x: 15, y: -39}
+        - {x: 23, y: -63}
+        - {x: 45, y: -63}
+        - {x: 47, y: -53}
+        - {x: 47, y: -15}
+        - {x: 44, y: -12}
+    - name: mainchar_walkcycle_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -16}
+        - {x: 15, y: -23}
+        - {x: 15, y: -26}
+        - {x: 20, y: -60}
+        - {x: 23, y: -64}
+        - {x: 38, y: -64}
+        - {x: 48, y: -61}
+        - {x: 48, y: -12}
+        - {x: 22, y: -12}
+        - {x: 20, y: -14}
+    - name: mainchar_walkcycle_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -13}
+        - {x: 15, y: -54}
+        - {x: 19, y: -62}
+        - {x: 21, y: -64}
+        - {x: 35, y: -64}
+        - {x: 46, y: -62}
+        - {x: 50, y: -58}
+        - {x: 50, y: -20}
+        - {x: 47, y: -13}
+    - name: mainchar_walkcycle_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: -12}
+        - {x: 20, y: -12}
+        - {x: 18, y: -13}
+        - {x: 15, y: -23}
+        - {x: 15, y: -33}
+        - {x: 22, y: -61}
+        - {x: 25, y: -64}
+        - {x: 32, y: -64}
+        - {x: 38, y: -63}
+        - {x: 48, y: -53}
+    - name: mainchar_walkcycle_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -13}
+        - {x: 15, y: -13}
+        - {x: 15, y: -60}
+        - {x: 23, y: -63}
+        - {x: 29, y: -64}
+        - {x: 39, y: -64}
+        - {x: 41, y: -61}
+        - {x: 47, y: -50}
+        - {x: 47, y: -17}
+    - name: mainchar_walkcycle_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -12}
+        - {x: 15, y: -23}
+        - {x: 15, y: -36}
+        - {x: 23, y: -64}
+        - {x: 45, y: -64}
+        - {x: 47, y: -57}
+        - {x: 47, y: -15}
+        - {x: 42, y: -12}
+    - name: mainchar_walkcycle_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -64}
+        - {x: 43, y: -64}
+        - {x: 47, y: -62}
+        - {x: 49, y: -54}
+        - {x: 49, y: -14}
+        - {x: 38, y: -11}
+        - {x: 20, y: -11}
+        - {x: 16, y: -19}
+        - {x: 15, y: -29}
+        - {x: 15, y: -63}
+        - {x: 18, y: -64}
+        - {x: 29, y: -64}
+        - {x: 31, y: -60}
+        - {x: 31, y: -56}
+        - {x: 33, y: -60}
+    - name: mainchar_walkcycle_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -11}
+        - {x: 19, y: -11}
+        - {x: 15, y: -29}
+        - {x: 15, y: -64}
+        - {x: 46, y: -64}
+        - {x: 48, y: -63}
+        - {x: 49, y: -60}
+        - {x: 49, y: -24}
+    - name: mainchar_walkcycle_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -11}
+        - {x: 15, y: -32}
+        - {x: 15, y: -57}
+        - {x: 17, y: -63}
+        - {x: 22, y: -64}
+        - {x: 45, y: -64}
+        - {x: 49, y: -57}
+        - {x: 49, y: -20}
+        - {x: 44, y: -11}
+    - name: mainchar_walkcycle_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -11}
+        - {x: 16, y: -16}
+        - {x: 16, y: -64}
+        - {x: 49, y: -64}
+        - {x: 49, y: -12}
+        - {x: 45, y: -11}
+    - name: mainchar_walkcycle_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -11}
+        - {x: 15, y: -27}
+        - {x: 15, y: -58}
+        - {x: 16, y: -64}
+        - {x: 45, y: -64}
+        - {x: 48, y: -63}
+        - {x: 49, y: -62}
+        - {x: 49, y: -19}
+        - {x: 46, y: -11}
+    - name: mainchar_walkcycle_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -11}
+        - {x: 18, y: -11}
+        - {x: 15, y: -31}
+        - {x: 15, y: -57}
+        - {x: 19, y: -64}
+        - {x: 45, y: -64}
+        - {x: 49, y: -56}
+        - {x: 49, y: -31}
+        - {x: 47, y: -17}
+      - - {x: 52, y: -8}
+        - {x: 55, y: -7}
+        - {x: 55, y: -4}
+        - {x: 52, y: -3}
+        - {x: 50, y: -5}
+    - name: mainchar_walkcycle_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -11}
+        - {x: 15, y: -11}
+        - {x: 15, y: -64}
+        - {x: 44, y: -64}
+        - {x: 47, y: -63}
+        - {x: 49, y: -58}
+        - {x: 49, y: -26}
+    - name: mainchar_walkcycle_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -12}
+        - {x: 15, y: -64}
+        - {x: 47, y: -64}
+        - {x: 49, y: -52}
+        - {x: 49, y: -16}
+        - {x: 38, y: -12}
+    - name: mainchar_walkcycle_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -11}
+        - {x: 15, y: -64}
+        - {x: 47, y: -64}
+        - {x: 49, y: -61}
+        - {x: 49, y: -26}
+        - {x: 44, y: -11}
+    - name: mainchar_walkcycle_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: -12}
+        - {x: 20, y: -12}
+        - {x: 17, y: -18}
+        - {x: 17, y: -39}
+        - {x: 20, y: -61}
+        - {x: 23, y: -64}
+        - {x: 34, y: -64}
+        - {x: 46, y: -62}
+        - {x: 45, y: -44}
+        - {x: 49, y: -33}
+        - {x: 49, y: -19}
+    - name: mainchar_walkcycle_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -20}
+        - {x: 45, y: -13}
+        - {x: 27, y: -13}
+        - {x: 20, y: -14}
+        - {x: 17, y: -19}
+        - {x: 17, y: -52}
+        - {x: 18, y: -60}
+        - {x: 22, y: -64}
+        - {x: 41, y: -64}
+        - {x: 47, y: -59}
+        - {x: 47, y: -55}
+        - {x: 49, y: -44}
+    - name: mainchar_walkcycle_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -12}
+        - {x: 17, y: -13}
+        - {x: 17, y: -53}
+        - {x: 20, y: -63}
+        - {x: 48, y: -63}
+        - {x: 49, y: -57}
+        - {x: 49, y: -13}
+        - {x: 48, y: -12}
+    - name: mainchar_walkcycle_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -12}
+        - {x: 17, y: -12}
+        - {x: 16, y: -18}
+        - {x: 16, y: -51}
+        - {x: 19, y: -62}
+        - {x: 22, y: -63}
+        - {x: 40, y: -63}
+        - {x: 42, y: -59}
+        - {x: 48, y: -33}
+        - {x: 48, y: -23}
+    - name: mainchar_walkcycle_31
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -12}
+        - {x: 13, y: -60}
+        - {x: 19, y: -64}
+        - {x: 43, y: -64}
+        - {x: 47, y: -52}
+        - {x: 47, y: -16}
+        - {x: 44, y: -12}
+    - name: mainchar_walkcycle_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -13}
+        - {x: 14, y: -17}
+        - {x: 14, y: -59}
+        - {x: 23, y: -64}
+        - {x: 45, y: -64}
+        - {x: 49, y: -58}
+        - {x: 49, y: -13}
+    - name: mainchar_walkcycle_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -12}
+        - {x: 16, y: -13}
+        - {x: 16, y: -57}
+        - {x: 19, y: -64}
+        - {x: 45, y: -64}
+        - {x: 49, y: -51}
+        - {x: 49, y: -17}
+        - {x: 46, y: -12}
+    - name: mainchar_walkcycle_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -12}
+        - {x: 17, y: -13}
+        - {x: 17, y: -58}
+        - {x: 19, y: -64}
+        - {x: 42, y: -64}
+        - {x: 43, y: -63}
+        - {x: 49, y: -36}
+        - {x: 49, y: -15}
+        - {x: 48, y: -12}
+    - name: mainchar_walkcycle_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -12}
+        - {x: 19, y: -13}
+        - {x: 16, y: -16}
+        - {x: 16, y: -53}
+        - {x: 19, y: -64}
+        - {x: 42, y: -64}
+        - {x: 48, y: -46}
+        - {x: 48, y: -17}
+        - {x: 44, y: -12}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

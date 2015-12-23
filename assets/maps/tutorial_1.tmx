@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="13" height="10" tilewidth="32" tileheight="32" nextobjectid="1">
  <tileset firstgid="1" name="house_insidesat" tilewidth="32" tileheight="32" tilecount="224">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/house_insidesat.png" width="512" height="448"/>
+  <image source="../terrain_sprites/LPC/house_insidesat.png" width="512" height="448"/>
  </tileset>
  <tileset firstgid="225" name="house_insidevert" tilewidth="32" tileheight="32" tilecount="224">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/house_insidevert.png" width="512" height="448"/>
+  <image source="../terrain_sprites/LPC/house_insidevert.png" width="512" height="448"/>
  </tileset>
  <tileset firstgid="449" name="build_atlas sat" tilewidth="32" tileheight="32" tilecount="1024">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/build_atlas sat.png" width="1024" height="1024"/>
+  <image source="../terrain_sprites/LPC/build_atlas sat.png" width="1024" height="1024"/>
  </tileset>
  <tileset firstgid="1473" name="house_insidesatflip" tilewidth="32" tileheight="32" tilecount="224">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/house_insidesatflip.png" width="512" height="448"/>
+  <image source="../terrain_sprites/LPC/house_insidesatflip.png" width="512" height="448"/>
  </tileset>
  <tileset firstgid="1697" name="obj_misk_atlas sat" tilewidth="32" tileheight="32" tilecount="1024">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/obj_misk_atlas sat.png" width="1024" height="1024"/>
+  <image source="../terrain_sprites/LPC/obj_misk_atlas sat.png" width="1024" height="1024"/>
  </tileset>
  <tileset firstgid="2721" name="paper" tilewidth="32" tileheight="32" tilecount="1024">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/paper.png" width="1024" height="1024"/>
+  <image source="../terrain_sprites/LPC/paper.png" width="1024" height="1024"/>
  </tileset>
  <tileset firstgid="3745" name="phonr" tilewidth="32" tileheight="32" tilecount="1024">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/phonr.png" width="1024" height="1024"/>
+  <image source="../terrain_sprites/LPC/phonr.png" width="1024" height="1024"/>
  </tileset>
  <tileset firstgid="4769" name="floor" tilewidth="32" tileheight="32" tilecount="224">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/floor.png" width="512" height="448"/>
+  <image source="../terrain_sprites/LPC/floor.png" width="512" height="448"/>
  </tileset>
  <tileset firstgid="4993" name="comm" tilewidth="32" tileheight="32" tilecount="224">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/comm.png" width="512" height="448"/>
+  <image source="../terrain_sprites/LPC/comm.png" width="512" height="448"/>
  </tileset>
  <tileset firstgid="5217" name="city_insidesat" tilewidth="32" tileheight="32" tilecount="384">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/LPC/city_insidesat.png" width="768" height="512"/>
+  <image source="../terrain_sprites/LPC/city_insidesat.png" width="768" height="512"/>
  </tileset>
  <tileset firstgid="5601" name="collision" tilewidth="32" tileheight="32" tilecount="1">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/collision.png" width="32" height="32"/>
+  <image source="../terrain_sprites/collision.png" width="32" height="32"/>
   <tile id="0">
    <objectgroup draworder="index">
     <object id="0" x="0" y="0" width="31.875" height="31.875"/>
@@ -39,49 +39,49 @@
   </tile>
  </tileset>
  <tileset firstgid="5602" name="blind-light" tilewidth="32" tileheight="32" tilecount="64">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/blind-light.png" width="256" height="256"/>
+  <image source="../terrain_sprites/blind-light.png" width="256" height="256"/>
  </tileset>
  <tileset firstgid="5666" name="shadows" tilewidth="32" tileheight="32" tilecount="64">
-  <image source="Peace-is-Alive-master/Peace-is-Alive-master/assets/terrain_sprites/shadows.png" width="256" height="256"/>
+  <image source="../terrain_sprites/shadows.png" width="256" height="256"/>
  </tileset>
- <layer name="wall" width="100" height="100">
+ <layer name="wall" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJzt17ENgkAYhuGrbjodwQ20tnIHC8ZxOLW4xBiMJ8LxA8+XPCUE7g0FXUqpAwAAAICFGLq5n3utynY5pX2Fa9anRY9DrqNHmx7HxzmfKnzq0be5322Jym6VSo/Xb6bv7PVo2+Pb2euhxxroEYsesegRS9kl1znr0aTHr9Nj+i7Pf4mh1+oxfo9/psf4PSLfb2v0iEWPWPSIRY9Yptjc7wQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO/u61RGoA==
+   eJxjYGBg8GFjYPAlAk8AYhiIZSMOI+vJAbJzicDIevYQiUf1oOqpZSMOl0P1AACWHkKK
   </data>
  </layer>
- <layer name="rugs and painting" width="100" height="100">
+ <layer name="rugs and painting" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJzt0cENQEAQBdDpgRKUohJUgQsloGB7INmD+wrvJT9z/ZkfAQAAAADAVy1VxFqVbgHwrLluV0f0WYa6aK3fuvcY0/+nLLM9irDHu7TX3dL/9yyHPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCzTp+0DQY=
+   eJxjYKAcNAozMDQJU8EgKgEVKJ0kwsCQjIRTRAjrqQKqqUbCNVTW4wKlJwHVTEbCU/DooQcAAKzPDQY=
   </data>
  </layer>
- <layer name="2ndwall" width="100" height="100">
+ <layer name="2ndwall" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJzt0bENwCAAwDCmvswTDD25KzsDUWVfECljAAAAAACcWc/tAnavHyl+tPjR4keLHy1+tPjR4kfL9AMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPipD4ZHBcA=
+   eJxjYGBg6GFjIBlMGNUzqPWUk6gHAGm+BcA=
   </data>
  </layer>
- <layer name="furniture" width="100" height="100">
+ <layer name="furniture" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJzt1TEKwjAUgOEs2tDFg1jQXe/Q3qQ5hUfoVV19JTjZuZHyffB4kCnwE5ISAAAAAABH8zr/nt27lC657nXYz7LRY4oGt1z3pEdzJRqMue6ix18Y+3gbfetb8DVHixLzPrW+Catr/CtDTLfxv7C/R3R4agEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH8wGawQhy
+   eJxjYCAftLFhihmwMzDwc0BoEEYH07DoCQCq0+eA0AFY9GADBUB1/hwQuoBIPSDgzwW0g4t49SCQD1RfAMTfWYnXow30pw4Qs2PxLy5gDVRrQ4J6agIAQ6gIcg==
   </data>
  </layer>
- <layer name="ontop of furniture" width="100" height="100">
+ <layer name="ontop of furniture" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJzt0aENACAMAMFqFmBnRoLlcBUoDKngboJPPgIAAAAAAOAfvTqAK6NVF3Ba1QGkGX4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLYB3Q4C3A==
+   eJxjYBj8QJyKZnVxkadvN4nqd5GhZyABAGUcAtw=
   </data>
  </layer>
- <layer name="furntiture" width="100" height="100">
+ <layer name="furntiture" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJzt0bEJgEAAA8CgXym42y/jEHZu4ihu4goWX1horSB3ENIGkgAAAAAAAADc1an12ifz+O0Wrj+WwR9wdC1PtpLs5d09AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/M8JJ6oGUw==
+   eJxjYBgFuEAgH4SeyMzAUMZNmp4uLuL1EAPeM0EwNrCBhYHhAgtl5gMAZK4GUw==
   </data>
  </layer>
- <layer name="phone" width="100" height="100">
+ <layer name="phone" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJztzkENAAAIBKBrYFb7f4zhdJCABAAAAAAAAADgjq7tAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN8NSdMAgQ==
+   eJxjYBgFQwEU8tPWfAAx+QCB
   </data>
  </layer>
- <layer name="collisions" width="100" height="100" opacity="0.43">
+ <layer name="collisions" width="13" height="10" opacity="0.43">
   <data encoding="base64" compression="zlib">
-   eJzt1sEJwCAQBECbsP/a0knwIYSQRAVzgsyA+PEhu3iYEgAAAAAAuzny6htQ1S7K3lr8ayRjfcT4yvn6LvQR4ynn+wx7O8d8PX3oIk7PvNJHnFbm+ljHHxcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANjJCbaiJ2c=
+   eJxjYCAfPBQlTz2IJoRJNR9ZLT59uMzHpgfdveToQVdDjNuw6cEmji5PjLm41AIA+MEnZw==
   </data>
  </layer>
 </map>
