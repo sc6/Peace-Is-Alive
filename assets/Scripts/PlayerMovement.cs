@@ -3,17 +3,16 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
     
-	Rigidbody2D rbody;
 	Animator anim;
     
-    Vector3 pos, dir_up, dir_down, dir_left, dir_right;                                
+    Vector3 pos, dir_up, dir_down, dir_left, dir_right, raycast_pos;                                
     float speed = 2.0f;                         // Speed of movement
 
     // Use this for initialization
     void Start () {
-		rbody = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
-        pos = transform.position;          // Take the initial position
+
+        pos = transform.position;               //this points to the top-left corner of character
 
         dir_up = transform.TransformDirection(Vector3.up);
         dir_down = transform.TransformDirection(Vector3.down);
@@ -24,39 +23,62 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-        if (Input.GetKey(KeyCode.A) && transform.position == pos && !Physics.Raycast(transform.position, dir_left, 1))
+        raycast_pos = transform.position;       //offset raycast to start from character's feet
+        raycast_pos.x += 1f;
+        raycast_pos.y -= 1.1f;
+
+        //Debug.DrawRay(raycast_pos, dir_down, Color.green);    //DEBUG: render raycast
+
+   
+        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) && transform.position == pos)
         {
-            pos += Vector3.left;
-            anim.SetBool("isWalking", true);
+            if(transform.position == pos && !Physics2D.Raycast(raycast_pos, dir_left, 1))
+            {
+                pos += Vector3.left;
+                anim.SetBool("isWalking", true);
+            }
+            else anim.SetBool("isWalking", false);
+
             anim.SetFloat("input_x", -1.0f);
             anim.SetFloat("input_y", 0f);
         }
-        else if (Input.GetKey(KeyCode.D) && transform.position == pos && !Physics.Raycast(transform.position, dir_right, 1))
+        else if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) && transform.position == pos)
         {
-            pos += Vector3.right;
-            anim.SetBool("isWalking", true);
+            if (transform.position == pos && !Physics2D.Raycast(raycast_pos, dir_right, 1))
+            {
+                pos += Vector3.right;
+                anim.SetBool("isWalking", true);
+            }
+            else anim.SetBool("isWalking", false);
+
             anim.SetFloat("input_x", 1.0f);
             anim.SetFloat("input_y", 0f);
         }
-        else if (Input.GetKey(KeyCode.W) && transform.position == pos && !Physics.Raycast(transform.position, dir_up, 1))
+        else if ((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) && transform.position == pos)
         {
-            pos += Vector3.up;
-            anim.SetBool("isWalking", true);
+            if (transform.position == pos && !Physics2D.Raycast(raycast_pos, dir_up, 1))
+            {
+                pos += Vector3.up;
+                anim.SetBool("isWalking", true);
+            }
+            else anim.SetBool("isWalking", false);
+
             anim.SetFloat("input_x", 0f);
             anim.SetFloat("input_y", 1.0f);
         }
-        else if (Input.GetKey(KeyCode.S) && transform.position == pos && !Physics.Raycast(transform.position, dir_down, 1))
+        else if ((Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) && transform.position == pos)
         {
-            pos += Vector3.down;
-            anim.SetBool("isWalking", true);
+            if(!Physics2D.Raycast(raycast_pos, dir_down, 1))
+            {
+                pos += Vector3.down;
+                anim.SetBool("isWalking", true);
+
+            } else anim.SetBool("isWalking", false);
+            
             anim.SetFloat("input_x", 0f);
             anim.SetFloat("input_y", -1.0f);
         }
-        else if(Physics.Raycast(transform.position, dir_left, 1))
-        {
-            anim.SetBool("isWalking", false);
-            print("Collision detected.");
-        } else
+        else
         {
             anim.SetBool("isWalking", false);
         }
@@ -66,7 +88,7 @@ public class PlayerMovement : MonoBehaviour {
 }
 
 
-/* Source
+/* Sources
 
     [1] http://answers.unity3d.com/questions/611343/movement-2d-in-a-grid.html
  
