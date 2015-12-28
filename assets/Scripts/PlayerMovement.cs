@@ -4,13 +4,16 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour {
     
 	Animator anim;
-    
+    AudioSource audio;
     Vector3 pos, dir_up, dir_down, dir_left, dir_right, raycast_pos;                                
     float speed = 4.7f;                         // speed of movement
+
+    bool audioOn;
 
 
     void Start () {
 		anim = GetComponent<Animator> ();
+        audio = GetComponent<AudioSource>();
 
         pos = transform.position;               //this points to the top-left corner of character
 
@@ -31,14 +34,21 @@ public class PlayerMovement : MonoBehaviour {
         //Debug.DrawRay(raycast_pos, dir_down, Color.green);    //debug: render raycast
 
         //player movement animation
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || 
-            Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) || 
-            Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) || 
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) ||
+            Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) ||
+            Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) ||
             Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)
             )
+        {
             anim.SetBool("isWalking", true);
+            
+        }
+
         else
-            if(transform.position == pos) anim.SetBool("isWalking", false);
+            if (transform.position == pos)
+        {
+            anim.SetBool("isWalking", false);
+        }
 
         //changes player position
         if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) && transform.position == pos)
@@ -84,6 +94,23 @@ public class PlayerMovement : MonoBehaviour {
 
         //update position (commit)
         transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);
+
+        //walking sound
+        if (anim.GetBool("isWalking"))
+        {
+            if (!audioOn)
+            {
+                audio.Play();
+                audioOn = true;
+            }
+        }
+        else {
+            if (audioOn)
+            {
+                audio.Pause();
+                audioOn = false;
+            }
+        }
 	}
 }
 
