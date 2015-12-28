@@ -24,6 +24,7 @@ public class DialogueLogic : MonoBehaviour {
 	
 	void Update () {
 
+        /*
         //d0: Init
         if (!d0)
         {
@@ -59,6 +60,7 @@ public class DialogueLogic : MonoBehaviour {
             d2 = false;
             StartCoroutine("SlideOutOfView");
         }
+        */
 
     }
  
@@ -68,7 +70,7 @@ public class DialogueLogic : MonoBehaviour {
     {
         for (int i = 1; i <= 21; i++)
         {
-            dialoguePosition.x = -i * (350 / 20);       //[?] calculation doesn't exactly equal -350
+            dialoguePosition.x = -i * (350 / 20);       //[?] calculation doesn't exactly equal -350, even with i <= 20
             dialogueWrapper.position = dialoguePosition;
             yield return null;
         }
