@@ -9,6 +9,7 @@ public class HintLogic : MonoBehaviour {
     MeshRenderer[] Renderers;
     TextMesh[] TextMeshes;
     GameObject player;
+    AudioSource audio;
 
 
     bool d0, d1, d2;            //has the hint already completed?
@@ -21,6 +22,8 @@ public class HintLogic : MonoBehaviour {
 
         TextPos = PlayerPos;
         ShadowPos = new Vector3(++PlayerPos.x, ++PlayerPos.y, PlayerPos.z);
+
+        audio = GetComponent<AudioSource>();
 
         Renderers = GetComponentsInChildren<MeshRenderer>();
 
@@ -53,7 +56,7 @@ public class HintLogic : MonoBehaviour {
             StartCoroutine("FadeIn");
         }
 
-        if(!d2 && d1 && player.transform.position != new Vector3(1.501f, -6.054f, 0))
+        if(!d2 && d1 && player.transform.position != new Vector3(1.501f, -6.054f, 0) && player.GetComponent<SpriteRenderer>().sprite.name == "mainchar_walkcycle_18")
         {
             d1 = false;
             StartCoroutine("FadeOut");
@@ -99,6 +102,8 @@ public class HintLogic : MonoBehaviour {
             yield return null;
         }
         */
+
+        audio.Play();
 
         Color c = TextMeshes[0].color;
         c.a = 1f;
