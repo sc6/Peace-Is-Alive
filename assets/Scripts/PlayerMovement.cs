@@ -2,7 +2,9 @@
 using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
-    
+
+    SpriteRenderer spriteRenderer;
+    Sprite currentSprite;
 	Animator anim;
     AudioSource audio;
     Vector3 pos, dir_up, dir_down, dir_left, dir_right, raycast_pos;                                
@@ -12,6 +14,8 @@ public class PlayerMovement : MonoBehaviour {
 
 
     void Start () {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        currentSprite = spriteRenderer.sprite;
 		anim = GetComponent<Animator> ();
         audio = GetComponent<AudioSource>();
 
@@ -41,7 +45,6 @@ public class PlayerMovement : MonoBehaviour {
             )
         {
             anim.SetBool("isWalking", true);
-            
         }
 
         else
@@ -92,7 +95,7 @@ public class PlayerMovement : MonoBehaviour {
             anim.SetFloat("input_y", -1.0f);
         }
 
-        //update position (commit)
+        //update position (commit on code above)
         transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);
 
         //walking sound
@@ -111,7 +114,15 @@ public class PlayerMovement : MonoBehaviour {
                 audioOn = false;
             }
         }
-	}
+
+
+        /*
+            Sprite selection
+        */
+
+        //onPhone: handled in PhoneLogic.cs
+
+    }
 }
 
 

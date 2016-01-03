@@ -6,7 +6,7 @@ public class PhoneLogic : MonoBehaviour {
 
     AudioSource audio;
     bool audioOn;
-    Animator anim;
+    Animator anim, playerAnim;
 
     GameObject player;
 
@@ -15,6 +15,7 @@ public class PhoneLogic : MonoBehaviour {
         audio = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
         player = GameObject.Find("mainchar");
+        playerAnim = player.GetComponent<Animator>();
 
         Idle();
     }
@@ -34,8 +35,6 @@ public class PhoneLogic : MonoBehaviour {
         {
             PickUp();
         }
-
-
     }
 
     IEnumerator startRinging(float delayInSeconds)
@@ -55,6 +54,8 @@ public class PhoneLogic : MonoBehaviour {
 
     void PickUp()
     {
+        
+        playerAnim.SetBool("onPhone", true);
         anim.SetBool("isRinging", false);
         anim.SetBool("isPickedUp", true);
         audio.Stop();
@@ -62,6 +63,7 @@ public class PhoneLogic : MonoBehaviour {
 
     void Idle()
     {
+        playerAnim.SetBool("onPhone", false);
         anim.SetBool("isRinging", false);
         anim.SetBool("isPickedUp", false);
     }

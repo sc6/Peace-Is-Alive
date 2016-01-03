@@ -56,13 +56,20 @@ public class HintLogic : MonoBehaviour {
             StartCoroutine("FadeIn");
         }
 
-        if(!d2 && d1 && player.transform.position != new Vector3(1.501f, -6.054f, 0) && player.GetComponent<SpriteRenderer>().sprite.name == "mainchar_walkcycle_18")
+        if((!d2 && d1) && (player.transform.position != new Vector3(1.501f, -6.054f, 0) || (player.GetComponent<SpriteRenderer>().sprite.name != "mainchar_walkcycle_18" && player.transform.position == new Vector3(1.501f, -6.054f, 0))))
         {
             d1 = false;
             StartCoroutine("FadeOut");
         }
-        
-        
+
+        //d2: Player pressed E to pick up the phone.
+        if (d1 && player.transform.position == new Vector3(1.501f, -6.054f, 0) && player.GetComponent<SpriteRenderer>().sprite.name == "mainchar_walkcycle_18" && Input.GetKey(KeyCode.E))
+        {
+            d2 = true;
+            StartCoroutine("FadeOut");
+        }
+
+
     }
 
 
