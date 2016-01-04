@@ -4,17 +4,23 @@ using System.Collections;
 
 public class PhoneLogic : MonoBehaviour {
 
-    AudioSource audio;
-    bool audioOn;
-    Animator anim, playerAnim;
+    public ChatLogic chatLogic;
 
-    GameObject player;
+    new AudioSource audio;
+    bool audioOn, phonePickedUp;
+    Animator anim, playerAnim;
+    ChatLogic ChatScript;
+
+    GameObject player, ChatUI;
+
 
     // Use this for initialization
     void Start () {
         audio = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
         player = GameObject.Find("mainchar");
+        ChatUI = GameObject.Find("ChatUI");
+        ChatScript = (ChatLogic) ChatUI.GetComponent(typeof(ChatLogic));
         playerAnim = player.GetComponent<Animator>();
 
         Idle();
@@ -35,6 +41,11 @@ public class PhoneLogic : MonoBehaviour {
         {
             PickUp();
         }
+
+        if(phonePickedUp && player.transform.position != new Vector3(1.501f, -6.054f, 0))
+        {
+            Idle();
+        }
     }
 
     IEnumerator startRinging(float delayInSeconds)
@@ -54,17 +65,26 @@ public class PhoneLogic : MonoBehaviour {
 
     void PickUp()
     {
+        phonePickedUp = true;
         
         playerAnim.SetBool("onPhone", true);
         anim.SetBool("isRinging", false);
         anim.SetBool("isPickedUp", true);
         audio.Stop();
+
+        string[] narr = { "Come into my office." };
+        ChatScript.updateText(narr);
     }
+
 
     void Idle()
     {
+        phonePickedUp = false;
+
         playerAnim.SetBool("onPhone", false);
         anim.SetBool("isRinging", false);
         anim.SetBool("isPickedUp", false);
+
+        ChatScript.Idle();
     }
 }
