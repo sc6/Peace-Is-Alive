@@ -6,7 +6,6 @@
 Steve Chang<br>
 Richard Chang
 <br><br>
-
 <strong>About:</strong><br>
 An adventure game following a day in the life of the Peace Officer. The player has opportunities to progress through the story in this game created on the Unity platform.
 <br><br>
